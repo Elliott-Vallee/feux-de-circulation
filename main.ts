@@ -23,14 +23,14 @@ basic.forever(function () {
 basic.forever(function () {
     Piéton = 0
     Vert()
-    basic.pause(10000)
+    basic.pause(8000)
     pins.digitalWritePin(DigitalPin.P0, 0)
     Jaune()
     basic.pause(3000)
     pins.digitalWritePin(DigitalPin.P1, 0)
     Rouge()
     Orange()
-    basic.pause(10000)
+    basic.pause(8000)
     pins.digitalWritePin(DigitalPin.P2, 0)
     if (Piéton == 1) {
         Rouge()
